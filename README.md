@@ -177,4 +177,4 @@ CapsNet|0.991 |0.985 |0.933 |0.854 |0.787 |0.733 |0.684 |0.623 |0.578 |0.535 |0.
 Discussion
 -------------
 
-CapsNet shows more robustness for adversarial examples than naiive conv. network. However, CapsNet also fall in the trap of every type adversarial examples. This structure can be one of the hint to solve adversarial problem, however experiment results show CapsNets is not free to adversarial attack.
+CapsNet shows better robustness for adversarial examples than naiive conv. network. However, CapsNet also fall in the trap of every type adversarial examples. This structure can be one of the hint to solve adversarial problem, however experiment results show CapsNets is not free to adversarial attack.
