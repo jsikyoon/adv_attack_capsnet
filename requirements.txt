@@ -1,0 +1,5 @@
+six
+numpy>=1.7.1
+scipy>=0.13.2
+easydict>=1.6
+tqdm>=4.17.1

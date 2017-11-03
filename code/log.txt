@@ -1,0 +1,2076 @@
+Extracting ../data/train-images-idx3-ubyte.gz
+Extracting ../data/train-labels-idx1-ubyte.gz
+Extracting ../data/t10k-images-idx3-ubyte.gz
+Extracting ../data/t10k-labels-idx1-ubyte.gz
+2017-11-01 16:53:45.547728: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 16:53:45.547749: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 16:53:45.547753: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 16:53:45.547756: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 16:53:45.547760: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 16:53:45.650752: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-01 16:53:45.651018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties:
+name: GeForce GTX 1060 6GB
+major: 6 minor: 1 memoryClockRate (GHz) 1.7845
+pciBusID 0000:01:00.0
+Total memory: 5.92GiB
+Free memory: 5.31GiB
+2017-11-01 16:53:45.651031: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0
+2017-11-01 16:53:45.651050: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y
+2017-11-01 16:53:45.651056: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0)
+Created model with fresh paramters.
+Num params: 8141840
+iters: 10 / 5000, loss ==> 0.4946
+train accuracy: 0.6100
+val   accuracy: 0.6800
+average time: 21.27 secs
+iters: 20 / 5000, loss ==> 0.2408
+train accuracy: 0.7800
+val   accuracy: 0.7600
+average time: 18.58 secs
+iters: 30 / 5000, loss ==> 0.1822
+train accuracy: 0.8900
+val   accuracy: 0.8800
+average time: 18.63 secs
+iters: 40 / 5000, loss ==> 0.1431
+train accuracy: 0.8900
+val   accuracy: 0.9400
+average time: 18.66 secs
+iters: 50 / 5000, loss ==> 0.1147
+train accuracy: 0.9300
+val   accuracy: 0.9500
+average time: 18.64 secs
+iters: 60 / 5000, loss ==> 0.1262
+train accuracy: 0.9000
+val   accuracy: 0.9300
+average time: 18.65 secs
+iters: 70 / 5000, loss ==> 0.0959
+train accuracy: 0.9500
+val   accuracy: 0.9600
+average time: 18.65 secs
+iters: 80 / 5000, loss ==> 0.0794
+train accuracy: 0.9700
+val   accuracy: 0.9500
+average time: 18.65 secs
+iters: 90 / 5000, loss ==> 0.0648
+train accuracy: 0.9800
+val   accuracy: 0.9700
+average time: 18.67 secs
+iters: 100 / 5000, loss ==> 0.0576
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.65 secs
+iters: 110 / 5000, loss ==> 0.0825
+train accuracy: 0.9400
+val   accuracy: 1.0000
+average time: 18.65 secs
+iters: 120 / 5000, loss ==> 0.0637
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 18.66 secs
+iters: 130 / 5000, loss ==> 0.0544
+train accuracy: 0.9800
+val   accuracy: 0.9700
+average time: 18.65 secs
+iters: 140 / 5000, loss ==> 0.0647
+train accuracy: 0.9500
+val   accuracy: 0.9800
+average time: 18.66 secs
+iters: 150 / 5000, loss ==> 0.0518
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.66 secs
+iters: 160 / 5000, loss ==> 0.0808
+train accuracy: 0.9400
+val   accuracy: 0.9500
+average time: 18.65 secs
+iters: 170 / 5000, loss ==> 0.0455
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.70 secs
+iters: 180 / 5000, loss ==> 0.0648
+train accuracy: 0.9400
+val   accuracy: 1.0000
+average time: 18.66 secs
+iters: 190 / 5000, loss ==> 0.0487
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.65 secs
+iters: 200 / 5000, loss ==> 0.0591
+train accuracy: 0.9700
+val   accuracy: 0.9600
+average time: 18.66 secs
+iters: 210 / 5000, loss ==> 0.0434
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.69 secs
+iters: 220 / 5000, loss ==> 0.0557
+train accuracy: 0.9500
+val   accuracy: 0.9400
+average time: 18.65 secs
+iters: 230 / 5000, loss ==> 0.0416
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 18.64 secs
+iters: 240 / 5000, loss ==> 0.0486
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 18.66 secs
+iters: 250 / 5000, loss ==> 0.0504
+train accuracy: 0.9800
+val   accuracy: 0.9600
+average time: 18.65 secs
+iters: 260 / 5000, loss ==> 0.0572
+train accuracy: 0.9700
+val   accuracy: 0.9700
+average time: 18.65 secs
+iters: 270 / 5000, loss ==> 0.0383
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.68 secs
+iters: 280 / 5000, loss ==> 0.0339
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 290 / 5000, loss ==> 0.0643
+train accuracy: 0.9600
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 300 / 5000, loss ==> 0.0384
+train accuracy: 0.9900
+val   accuracy: 0.9500
+average time: 18.77 secs
+iters: 310 / 5000, loss ==> 0.0542
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 18.81 secs
+iters: 320 / 5000, loss ==> 0.0522
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 330 / 5000, loss ==> 0.0430
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 340 / 5000, loss ==> 0.0566
+train accuracy: 0.9800
+val   accuracy: 0.9700
+average time: 18.79 secs
+iters: 350 / 5000, loss ==> 0.0345
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 360 / 5000, loss ==> 0.0387
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 370 / 5000, loss ==> 0.0413
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 380 / 5000, loss ==> 0.0444
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.77 secs
+iters: 390 / 5000, loss ==> 0.0419
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.76 secs
+iters: 400 / 5000, loss ==> 0.0417
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.86 secs
+iters: 410 / 5000, loss ==> 0.0316
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.82 secs
+iters: 420 / 5000, loss ==> 0.0342
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.82 secs
+iters: 430 / 5000, loss ==> 0.0364
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 440 / 5000, loss ==> 0.0406
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 19.14 secs
+iters: 450 / 5000, loss ==> 0.0360
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 460 / 5000, loss ==> 0.0255
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 470 / 5000, loss ==> 0.0445
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 480 / 5000, loss ==> 0.0426
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 490 / 5000, loss ==> 0.0308
+train accuracy: 0.9800
+val   accuracy: 0.9500
+average time: 18.76 secs
+iters: 500 / 5000, loss ==> 0.0379
+train accuracy: 0.9900
+val   accuracy: 1.0000
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.89it/s]
+whole validation accuracy: 0.984799981117
+average time: 45.75 secs
+iters: 510 / 5000, loss ==> 0.0536
+train accuracy: 0.9700
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 520 / 5000, loss ==> 0.0334
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 18.76 secs
+iters: 530 / 5000, loss ==> 0.0320
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 540 / 5000, loss ==> 0.0340
+train accuracy: 0.9800
+val   accuracy: 0.9700
+average time: 18.76 secs
+iters: 550 / 5000, loss ==> 0.0403
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 19.09 secs
+iters: 560 / 5000, loss ==> 0.0355
+train accuracy: 0.9700
+val   accuracy: 0.9900
+average time: 18.89 secs
+iters: 570 / 5000, loss ==> 0.0367
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 19.11 secs
+iters: 580 / 5000, loss ==> 0.0262
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.81 secs
+iters: 590 / 5000, loss ==> 0.0330
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.86 secs
+iters: 600 / 5000, loss ==> 0.0222
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.82 secs
+iters: 610 / 5000, loss ==> 0.0313
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 620 / 5000, loss ==> 0.0260
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.83 secs
+iters: 630 / 5000, loss ==> 0.0354
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 640 / 5000, loss ==> 0.0277
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 650 / 5000, loss ==> 0.0350
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 660 / 5000, loss ==> 0.0310
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.77 secs
+iters: 670 / 5000, loss ==> 0.0392
+train accuracy: 0.9800
+val   accuracy: 0.9700
+average time: 18.76 secs
+iters: 680 / 5000, loss ==> 0.0264
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 690 / 5000, loss ==> 0.0382
+train accuracy: 0.9700
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 700 / 5000, loss ==> 0.0259
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 710 / 5000, loss ==> 0.0287
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 720 / 5000, loss ==> 0.0328
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 730 / 5000, loss ==> 0.0251
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 740 / 5000, loss ==> 0.0287
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.76 secs
+iters: 750 / 5000, loss ==> 0.0316
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.76 secs
+iters: 760 / 5000, loss ==> 0.0264
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 770 / 5000, loss ==> 0.0337
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 780 / 5000, loss ==> 0.0259
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 790 / 5000, loss ==> 0.0271
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.76 secs
+iters: 800 / 5000, loss ==> 0.0335
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 810 / 5000, loss ==> 0.0326
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 820 / 5000, loss ==> 0.0231
+train accuracy: 1.0000
+val   accuracy: 0.9600
+average time: 19.52 secs
+iters: 830 / 5000, loss ==> 0.0198
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 840 / 5000, loss ==> 0.0375
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 850 / 5000, loss ==> 0.0325
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 860 / 5000, loss ==> 0.0345
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 870 / 5000, loss ==> 0.0268
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 880 / 5000, loss ==> 0.0382
+train accuracy: 0.9700
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 890 / 5000, loss ==> 0.0245
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 900 / 5000, loss ==> 0.0220
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 910 / 5000, loss ==> 0.0237
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 18.79 secs
+iters: 920 / 5000, loss ==> 0.0279
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 930 / 5000, loss ==> 0.0255
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 940 / 5000, loss ==> 0.0231
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 950 / 5000, loss ==> 0.0242
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 960 / 5000, loss ==> 0.0407
+train accuracy: 0.9500
+val   accuracy: 0.9600
+average time: 18.80 secs
+iters: 970 / 5000, loss ==> 0.0216
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.79 secs
+iters: 980 / 5000, loss ==> 0.0240
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 990 / 5000, loss ==> 0.0329
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1000 / 5000, loss ==> 0.0364
+train accuracy: 0.9900
+val   accuracy: 0.9900
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.89it/s]
+whole validation accuracy: 0.989000022411
+average time: 46.04 secs
+iters: 1010 / 5000, loss ==> 0.0225
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1020 / 5000, loss ==> 0.0225
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1030 / 5000, loss ==> 0.0178
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.79 secs
+iters: 1040 / 5000, loss ==> 0.0166
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1050 / 5000, loss ==> 0.0230
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1060 / 5000, loss ==> 0.0304
+train accuracy: 0.9800
+val   accuracy: 0.9700
+average time: 18.80 secs
+iters: 1070 / 5000, loss ==> 0.0192
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1080 / 5000, loss ==> 0.0220
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1090 / 5000, loss ==> 0.0184
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1100 / 5000, loss ==> 0.0277
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 19.40 secs
+iters: 1110 / 5000, loss ==> 0.0161
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1120 / 5000, loss ==> 0.0175
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 1130 / 5000, loss ==> 0.0211
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1140 / 5000, loss ==> 0.0230
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 1150 / 5000, loss ==> 0.0239
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1160 / 5000, loss ==> 0.0203
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1170 / 5000, loss ==> 0.0160
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1180 / 5000, loss ==> 0.0337
+train accuracy: 0.9700
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1190 / 5000, loss ==> 0.0235
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1200 / 5000, loss ==> 0.0347
+train accuracy: 0.9700
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1210 / 5000, loss ==> 0.0223
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1220 / 5000, loss ==> 0.0147
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1230 / 5000, loss ==> 0.0226
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1240 / 5000, loss ==> 0.0173
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1250 / 5000, loss ==> 0.0228
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1260 / 5000, loss ==> 0.0146
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.79 secs
+iters: 1270 / 5000, loss ==> 0.0203
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1280 / 5000, loss ==> 0.0205
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 1290 / 5000, loss ==> 0.0218
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1300 / 5000, loss ==> 0.0203
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1310 / 5000, loss ==> 0.0180
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1320 / 5000, loss ==> 0.0266
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1330 / 5000, loss ==> 0.0224
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1340 / 5000, loss ==> 0.0224
+train accuracy: 0.9900
+val   accuracy: 0.9600
+average time: 18.79 secs
+iters: 1350 / 5000, loss ==> 0.0250
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1360 / 5000, loss ==> 0.0182
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1370 / 5000, loss ==> 0.0175
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1380 / 5000, loss ==> 0.0226
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1390 / 5000, loss ==> 0.0244
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1400 / 5000, loss ==> 0.0315
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1410 / 5000, loss ==> 0.0212
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1420 / 5000, loss ==> 0.0134
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1430 / 5000, loss ==> 0.0159
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1440 / 5000, loss ==> 0.0212
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1450 / 5000, loss ==> 0.0151
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1460 / 5000, loss ==> 0.0215
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 1470 / 5000, loss ==> 0.0203
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1480 / 5000, loss ==> 0.0207
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1490 / 5000, loss ==> 0.0161
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1500 / 5000, loss ==> 0.0226
+train accuracy: 0.9900
+val   accuracy: 0.9800
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.89it/s]
+whole validation accuracy: 0.989199995995
+average time: 45.39 secs
+iters: 1510 / 5000, loss ==> 0.0232
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1520 / 5000, loss ==> 0.0219
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 1530 / 5000, loss ==> 0.0175
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1540 / 5000, loss ==> 0.0139
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.80 secs
+iters: 1550 / 5000, loss ==> 0.0188
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1560 / 5000, loss ==> 0.0151
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1570 / 5000, loss ==> 0.0121
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1580 / 5000, loss ==> 0.0280
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1590 / 5000, loss ==> 0.0309
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1600 / 5000, loss ==> 0.0348
+train accuracy: 0.9600
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1610 / 5000, loss ==> 0.0192
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1620 / 5000, loss ==> 0.0174
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1630 / 5000, loss ==> 0.0206
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 1640 / 5000, loss ==> 0.0128
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1650 / 5000, loss ==> 0.0129
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.90 secs
+iters: 1660 / 5000, loss ==> 0.0141
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 1670 / 5000, loss ==> 0.0142
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1680 / 5000, loss ==> 0.0126
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 1690 / 5000, loss ==> 0.0133
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.80 secs
+iters: 1700 / 5000, loss ==> 0.0127
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1710 / 5000, loss ==> 0.0123
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1720 / 5000, loss ==> 0.0115
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 1730 / 5000, loss ==> 0.0167
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1740 / 5000, loss ==> 0.0175
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1750 / 5000, loss ==> 0.0137
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 1760 / 5000, loss ==> 0.0220
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.86 secs
+iters: 1770 / 5000, loss ==> 0.0113
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.81 secs
+iters: 1780 / 5000, loss ==> 0.0142
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.87 secs
+iters: 1790 / 5000, loss ==> 0.0160
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.75 secs
+iters: 1800 / 5000, loss ==> 0.0111
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 1810 / 5000, loss ==> 0.0152
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.80 secs
+iters: 1820 / 5000, loss ==> 0.0158
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.78 secs
+iters: 1830 / 5000, loss ==> 0.0170
+train accuracy: 1.0000
+val   accuracy: 0.9600
+average time: 18.80 secs
+iters: 1840 / 5000, loss ==> 0.0114
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.81 secs
+iters: 1850 / 5000, loss ==> 0.0138
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.87 secs
+iters: 1860 / 5000, loss ==> 0.0136
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 1870 / 5000, loss ==> 0.0186
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.77 secs
+iters: 1880 / 5000, loss ==> 0.0169
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.77 secs
+iters: 1890 / 5000, loss ==> 0.0155
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 1900 / 5000, loss ==> 0.0132
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 1910 / 5000, loss ==> 0.0163
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 1920 / 5000, loss ==> 0.0153
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.85 secs
+iters: 1930 / 5000, loss ==> 0.0189
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 1940 / 5000, loss ==> 0.0155
+train accuracy: 0.9900
+val   accuracy: 0.9600
+average time: 18.77 secs
+iters: 1950 / 5000, loss ==> 0.0119
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 1960 / 5000, loss ==> 0.0144
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 1970 / 5000, loss ==> 0.0195
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 1980 / 5000, loss ==> 0.0111
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 1990 / 5000, loss ==> 0.0133
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.77 secs
+iters: 2000 / 5000, loss ==> 0.0135
+train accuracy: 1.0000
+val   accuracy: 0.9900
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.89it/s]
+whole validation accuracy: 0.991600036621
+average time: 45.60 secs
+iters: 2010 / 5000, loss ==> 0.0142
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 2020 / 5000, loss ==> 0.0111
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 2030 / 5000, loss ==> 0.0121
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 2040 / 5000, loss ==> 0.0160
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.86 secs
+iters: 2050 / 5000, loss ==> 0.0164
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.83 secs
+iters: 2060 / 5000, loss ==> 0.0171
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.79 secs
+iters: 2070 / 5000, loss ==> 0.0182
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.77 secs
+iters: 2080 / 5000, loss ==> 0.0320
+train accuracy: 0.9600
+val   accuracy: 0.9900
+average time: 19.12 secs
+iters: 2090 / 5000, loss ==> 0.0127
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.81 secs
+iters: 2100 / 5000, loss ==> 0.0146
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.90 secs
+iters: 2110 / 5000, loss ==> 0.0141
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.05 secs
+iters: 2120 / 5000, loss ==> 0.0194
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 19.02 secs
+iters: 2130 / 5000, loss ==> 0.0177
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 19.25 secs
+iters: 2140 / 5000, loss ==> 0.0168
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 19.05 secs
+iters: 2150 / 5000, loss ==> 0.0151
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.08 secs
+iters: 2160 / 5000, loss ==> 0.0119
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.00 secs
+iters: 2170 / 5000, loss ==> 0.0125
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.17 secs
+iters: 2180 / 5000, loss ==> 0.0250
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 19.19 secs
+iters: 2190 / 5000, loss ==> 0.0211
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 19.03 secs
+iters: 2200 / 5000, loss ==> 0.0122
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.74 secs
+iters: 2210 / 5000, loss ==> 0.0153
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.05 secs
+iters: 2220 / 5000, loss ==> 0.0126
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 19.17 secs
+iters: 2230 / 5000, loss ==> 0.0113
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.21 secs
+iters: 2240 / 5000, loss ==> 0.0104
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.98 secs
+iters: 2250 / 5000, loss ==> 0.0110
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.27 secs
+iters: 2260 / 5000, loss ==> 0.0092
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.86 secs
+iters: 2270 / 5000, loss ==> 0.0139
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.82 secs
+iters: 2280 / 5000, loss ==> 0.0140
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.83 secs
+iters: 2290 / 5000, loss ==> 0.0108
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 2300 / 5000, loss ==> 0.0150
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.79 secs
+iters: 2310 / 5000, loss ==> 0.0111
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.07 secs
+iters: 2320 / 5000, loss ==> 0.0094
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.47 secs
+iters: 2330 / 5000, loss ==> 0.0177
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 19.09 secs
+iters: 2340 / 5000, loss ==> 0.0117
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.28 secs
+iters: 2350 / 5000, loss ==> 0.0123
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.25 secs
+iters: 2360 / 5000, loss ==> 0.0131
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.96 secs
+iters: 2370 / 5000, loss ==> 0.0108
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.89 secs
+iters: 2380 / 5000, loss ==> 0.0135
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.88 secs
+iters: 2390 / 5000, loss ==> 0.0150
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.82 secs
+iters: 2400 / 5000, loss ==> 0.0102
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.86 secs
+iters: 2410 / 5000, loss ==> 0.0119
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.86 secs
+iters: 2420 / 5000, loss ==> 0.0096
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.90 secs
+iters: 2430 / 5000, loss ==> 0.0168
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.87 secs
+iters: 2440 / 5000, loss ==> 0.0169
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.94 secs
+iters: 2450 / 5000, loss ==> 0.0100
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.90 secs
+iters: 2460 / 5000, loss ==> 0.0146
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.90 secs
+iters: 2470 / 5000, loss ==> 0.0108
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.90 secs
+iters: 2480 / 5000, loss ==> 0.0106
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.16 secs
+iters: 2490 / 5000, loss ==> 0.0133
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.30 secs
+iters: 2500 / 5000, loss ==> 0.0095
+train accuracy: 1.0000
+val   accuracy: 0.9900
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.89it/s]
+whole validation accuracy: 0.99120002985
+average time: 45.98 secs
+iters: 2510 / 5000, loss ==> 0.0156
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.82 secs
+iters: 2520 / 5000, loss ==> 0.0109
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.96 secs
+iters: 2530 / 5000, loss ==> 0.0083
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.13 secs
+iters: 2540 / 5000, loss ==> 0.0151
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.33 secs
+iters: 2550 / 5000, loss ==> 0.0154
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 19.01 secs
+iters: 2560 / 5000, loss ==> 0.0110
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.54 secs
+iters: 2570 / 5000, loss ==> 0.0123
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.89 secs
+iters: 2580 / 5000, loss ==> 0.0094
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.44 secs
+iters: 2590 / 5000, loss ==> 0.0130
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.87 secs
+iters: 2600 / 5000, loss ==> 0.0102
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.00 secs
+iters: 2610 / 5000, loss ==> 0.0127
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.65 secs
+iters: 2620 / 5000, loss ==> 0.0172
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.99 secs
+iters: 2630 / 5000, loss ==> 0.0102
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.87 secs
+iters: 2640 / 5000, loss ==> 0.0139
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.05 secs
+iters: 2650 / 5000, loss ==> 0.0175
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.89 secs
+iters: 2660 / 5000, loss ==> 0.0146
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.87 secs
+iters: 2670 / 5000, loss ==> 0.0135
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.88 secs
+iters: 2680 / 5000, loss ==> 0.0126
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.83 secs
+iters: 2690 / 5000, loss ==> 0.0110
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.88 secs
+iters: 2700 / 5000, loss ==> 0.0118
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.90 secs
+iters: 2710 / 5000, loss ==> 0.0112
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.92 secs
+iters: 2720 / 5000, loss ==> 0.0096
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.89 secs
+iters: 2730 / 5000, loss ==> 0.0154
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.88 secs
+iters: 2740 / 5000, loss ==> 0.0236
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 18.86 secs
+iters: 2750 / 5000, loss ==> 0.0096
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.54 secs
+iters: 2760 / 5000, loss ==> 0.0092
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.83 secs
+iters: 2770 / 5000, loss ==> 0.0109
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.91 secs
+iters: 2780 / 5000, loss ==> 0.0104
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.94 secs
+iters: 2790 / 5000, loss ==> 0.0093
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.06 secs
+iters: 2800 / 5000, loss ==> 0.0084
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.89 secs
+iters: 2810 / 5000, loss ==> 0.0096
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.90 secs
+iters: 2820 / 5000, loss ==> 0.0132
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.89 secs
+iters: 2830 / 5000, loss ==> 0.0093
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 19.08 secs
+iters: 2840 / 5000, loss ==> 0.0094
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.89 secs
+iters: 2850 / 5000, loss ==> 0.0078
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.91 secs
+iters: 2860 / 5000, loss ==> 0.0083
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.97 secs
+iters: 2870 / 5000, loss ==> 0.0100
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 19.26 secs
+iters: 2880 / 5000, loss ==> 0.0090
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.95 secs
+iters: 2890 / 5000, loss ==> 0.0148
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.88 secs
+iters: 2900 / 5000, loss ==> 0.0102
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.96 secs
+iters: 2910 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.87 secs
+iters: 2920 / 5000, loss ==> 0.0101
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.30 secs
+iters: 2930 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.87 secs
+iters: 2940 / 5000, loss ==> 0.0084
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.89 secs
+iters: 2950 / 5000, loss ==> 0.0099
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.91 secs
+iters: 2960 / 5000, loss ==> 0.0107
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.95 secs
+iters: 2970 / 5000, loss ==> 0.0176
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.86 secs
+iters: 2980 / 5000, loss ==> 0.0123
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.81 secs
+iters: 2990 / 5000, loss ==> 0.0100
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.87 secs
+iters: 3000 / 5000, loss ==> 0.0094
+train accuracy: 1.0000
+val   accuracy: 0.9900
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.88it/s]
+whole validation accuracy: 0.990999996662
+average time: 45.71 secs
+iters: 3010 / 5000, loss ==> 0.0116
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.89 secs
+iters: 3020 / 5000, loss ==> 0.0089
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.92 secs
+iters: 3030 / 5000, loss ==> 0.0099
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.84 secs
+iters: 3040 / 5000, loss ==> 0.0085
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.82 secs
+iters: 3050 / 5000, loss ==> 0.0146
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 3060 / 5000, loss ==> 0.0114
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.75 secs
+iters: 3070 / 5000, loss ==> 0.0125
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 18.85 secs
+iters: 3080 / 5000, loss ==> 0.0100
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.13 secs
+iters: 3090 / 5000, loss ==> 0.0102
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.81 secs
+iters: 3100 / 5000, loss ==> 0.0186
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 3110 / 5000, loss ==> 0.0117
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 3120 / 5000, loss ==> 0.0123
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.87 secs
+iters: 3130 / 5000, loss ==> 0.0127
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.88 secs
+iters: 3140 / 5000, loss ==> 0.0129
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.85 secs
+iters: 3150 / 5000, loss ==> 0.0098
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.89 secs
+iters: 3160 / 5000, loss ==> 0.0132
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.82 secs
+iters: 3170 / 5000, loss ==> 0.0118
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.85 secs
+iters: 3180 / 5000, loss ==> 0.0141
+train accuracy: 1.0000
+val   accuracy: 0.9600
+average time: 18.87 secs
+iters: 3190 / 5000, loss ==> 0.0098
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.85 secs
+iters: 3200 / 5000, loss ==> 0.0133
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.88 secs
+iters: 3210 / 5000, loss ==> 0.0095
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.84 secs
+iters: 3220 / 5000, loss ==> 0.0093
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.92 secs
+iters: 3230 / 5000, loss ==> 0.0149
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.92 secs
+iters: 3240 / 5000, loss ==> 0.0112
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.88 secs
+iters: 3250 / 5000, loss ==> 0.0114
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.88 secs
+iters: 3260 / 5000, loss ==> 0.0084
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.84 secs
+iters: 3270 / 5000, loss ==> 0.0081
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.81 secs
+iters: 3280 / 5000, loss ==> 0.0123
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.86 secs
+iters: 3290 / 5000, loss ==> 0.0093
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.91 secs
+iters: 3300 / 5000, loss ==> 0.0096
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.19 secs
+iters: 3310 / 5000, loss ==> 0.0082
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 3320 / 5000, loss ==> 0.0115
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.75 secs
+iters: 3330 / 5000, loss ==> 0.0101
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.78 secs
+iters: 3340 / 5000, loss ==> 0.0083
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.34 secs
+iters: 3350 / 5000, loss ==> 0.0141
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.79 secs
+iters: 3360 / 5000, loss ==> 0.0089
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.77 secs
+iters: 3370 / 5000, loss ==> 0.0081
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.33 secs
+iters: 3380 / 5000, loss ==> 0.0161
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.38 secs
+iters: 3390 / 5000, loss ==> 0.0079
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.81 secs
+iters: 3400 / 5000, loss ==> 0.0081
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.94 secs
+iters: 3410 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.83 secs
+iters: 3420 / 5000, loss ==> 0.0075
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.45 secs
+iters: 3430 / 5000, loss ==> 0.0098
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.04 secs
+iters: 3440 / 5000, loss ==> 0.0124
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 18.85 secs
+iters: 3450 / 5000, loss ==> 0.0107
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.30 secs
+iters: 3460 / 5000, loss ==> 0.0094
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.99 secs
+iters: 3470 / 5000, loss ==> 0.0128
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.85 secs
+iters: 3480 / 5000, loss ==> 0.0091
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.92 secs
+iters: 3490 / 5000, loss ==> 0.0117
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.90 secs
+iters: 3500 / 5000, loss ==> 0.0083
+train accuracy: 1.0000
+val   accuracy: 0.9600
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.87it/s]
+whole validation accuracy: 0.99279999733
+average time: 45.63 secs
+iters: 3510 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.90 secs
+iters: 3520 / 5000, loss ==> 0.0082
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.87 secs
+iters: 3530 / 5000, loss ==> 0.0079
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.90 secs
+iters: 3540 / 5000, loss ==> 0.0095
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.84 secs
+iters: 3550 / 5000, loss ==> 0.0070
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.88 secs
+iters: 3560 / 5000, loss ==> 0.0078
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.90 secs
+iters: 3570 / 5000, loss ==> 0.0083
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.86 secs
+iters: 3580 / 5000, loss ==> 0.0109
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.87 secs
+iters: 3590 / 5000, loss ==> 0.0101
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.81 secs
+iters: 3600 / 5000, loss ==> 0.0138
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.88 secs
+iters: 3610 / 5000, loss ==> 0.0105
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.86 secs
+iters: 3620 / 5000, loss ==> 0.0092
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.91 secs
+iters: 3630 / 5000, loss ==> 0.0099
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.16 secs
+iters: 3640 / 5000, loss ==> 0.0082
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.83 secs
+iters: 3650 / 5000, loss ==> 0.0082
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 3660 / 5000, loss ==> 0.0089
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.80 secs
+iters: 3670 / 5000, loss ==> 0.0068
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.81 secs
+iters: 3680 / 5000, loss ==> 0.0132
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 19.00 secs
+iters: 3690 / 5000, loss ==> 0.0107
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.89 secs
+iters: 3700 / 5000, loss ==> 0.0086
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.20 secs
+iters: 3710 / 5000, loss ==> 0.0107
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.40 secs
+iters: 3720 / 5000, loss ==> 0.0090
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 3730 / 5000, loss ==> 0.0071
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.00 secs
+iters: 3740 / 5000, loss ==> 0.0098
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 19.17 secs
+iters: 3750 / 5000, loss ==> 0.0087
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.42 secs
+iters: 3760 / 5000, loss ==> 0.0131
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.95 secs
+iters: 3770 / 5000, loss ==> 0.0126
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.88 secs
+iters: 3780 / 5000, loss ==> 0.0088
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.95 secs
+iters: 3790 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.62 secs
+iters: 3800 / 5000, loss ==> 0.0116
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 19.26 secs
+iters: 3810 / 5000, loss ==> 0.0073
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.31 secs
+iters: 3820 / 5000, loss ==> 0.0093
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.82 secs
+iters: 3830 / 5000, loss ==> 0.0157
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.80 secs
+iters: 3840 / 5000, loss ==> 0.0105
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.92 secs
+iters: 3850 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.63 secs
+iters: 3860 / 5000, loss ==> 0.0099
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.96 secs
+iters: 3870 / 5000, loss ==> 0.0071
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.84 secs
+iters: 3880 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.24 secs
+iters: 3890 / 5000, loss ==> 0.0086
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 19.34 secs
+iters: 3900 / 5000, loss ==> 0.0155
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.98 secs
+iters: 3910 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.22 secs
+iters: 3920 / 5000, loss ==> 0.0075
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.14 secs
+iters: 3930 / 5000, loss ==> 0.0064
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.98 secs
+iters: 3940 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.01 secs
+iters: 3950 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.14 secs
+iters: 3960 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.24 secs
+iters: 3970 / 5000, loss ==> 0.0073
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.24 secs
+iters: 3980 / 5000, loss ==> 0.0129
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 19.10 secs
+iters: 3990 / 5000, loss ==> 0.0097
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.87 secs
+iters: 4000 / 5000, loss ==> 0.0075
+train accuracy: 1.0000
+val   accuracy: 1.0000
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.89it/s]
+whole validation accuracy: 0.993000030518
+average time: 45.87 secs
+iters: 4010 / 5000, loss ==> 0.0063
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.08 secs
+iters: 4020 / 5000, loss ==> 0.0079
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.14 secs
+iters: 4030 / 5000, loss ==> 0.0091
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.37 secs
+iters: 4040 / 5000, loss ==> 0.0075
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.08 secs
+iters: 4050 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.85 secs
+iters: 4060 / 5000, loss ==> 0.0085
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.07 secs
+iters: 4070 / 5000, loss ==> 0.0082
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.01 secs
+iters: 4080 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.89 secs
+iters: 4090 / 5000, loss ==> 0.0080
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.98 secs
+iters: 4100 / 5000, loss ==> 0.0070
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.83 secs
+iters: 4110 / 5000, loss ==> 0.0066
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.92 secs
+iters: 4120 / 5000, loss ==> 0.0069
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.85 secs
+iters: 4130 / 5000, loss ==> 0.0075
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.97 secs
+iters: 4140 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.82 secs
+iters: 4150 / 5000, loss ==> 0.0066
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.91 secs
+iters: 4160 / 5000, loss ==> 0.0069
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.04 secs
+iters: 4170 / 5000, loss ==> 0.0085
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.95 secs
+iters: 4180 / 5000, loss ==> 0.0087
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.98 secs
+iters: 4190 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 19.00 secs
+iters: 4200 / 5000, loss ==> 0.0094
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.90 secs
+iters: 4210 / 5000, loss ==> 0.0067
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.31 secs
+iters: 4220 / 5000, loss ==> 0.0083
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.21 secs
+iters: 4230 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.98 secs
+iters: 4240 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.32 secs
+iters: 4250 / 5000, loss ==> 0.0070
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.20 secs
+iters: 4260 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.18 secs
+iters: 4270 / 5000, loss ==> 0.0065
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.84 secs
+iters: 4280 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.18 secs
+iters: 4290 / 5000, loss ==> 0.0078
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.30 secs
+iters: 4300 / 5000, loss ==> 0.0080
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.11 secs
+iters: 4310 / 5000, loss ==> 0.0107
+train accuracy: 1.0000
+val   accuracy: 0.9600
+average time: 19.06 secs
+iters: 4320 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.25 secs
+iters: 4330 / 5000, loss ==> 0.0065
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.24 secs
+iters: 4340 / 5000, loss ==> 0.0126
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.10 secs
+iters: 4350 / 5000, loss ==> 0.0070
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.44 secs
+iters: 4360 / 5000, loss ==> 0.0078
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.21 secs
+iters: 4370 / 5000, loss ==> 0.0067
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.06 secs
+iters: 4380 / 5000, loss ==> 0.0071
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.85 secs
+iters: 4390 / 5000, loss ==> 0.0079
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.99 secs
+iters: 4400 / 5000, loss ==> 0.0067
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.24 secs
+iters: 4410 / 5000, loss ==> 0.0069
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.82 secs
+iters: 4420 / 5000, loss ==> 0.0094
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4430 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 4440 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.77 secs
+iters: 4450 / 5000, loss ==> 0.0079
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 4460 / 5000, loss ==> 0.0068
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.76 secs
+iters: 4470 / 5000, loss ==> 0.0081
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.76 secs
+iters: 4480 / 5000, loss ==> 0.0070
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.76 secs
+iters: 4490 / 5000, loss ==> 0.0068
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.75 secs
+iters: 4500 / 5000, loss ==> 0.0075
+train accuracy: 1.0000
+val   accuracy: 1.0000
+calculating validation accuracy: 100%|██████████| 50/50 [00:26<00:00,  1.89it/s]
+whole validation accuracy: 0.991800010204
+average time: 45.37 secs
+iters: 4510 / 5000, loss ==> 0.0061
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.76 secs
+iters: 4520 / 5000, loss ==> 0.0070
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.77 secs
+iters: 4530 / 5000, loss ==> 0.0066
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.77 secs
+iters: 4540 / 5000, loss ==> 0.0076
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4550 / 5000, loss ==> 0.0069
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 4560 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4570 / 5000, loss ==> 0.0069
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 4580 / 5000, loss ==> 0.0071
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.78 secs
+iters: 4590 / 5000, loss ==> 0.0068
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4600 / 5000, loss ==> 0.0078
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4610 / 5000, loss ==> 0.0059
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4620 / 5000, loss ==> 0.0062
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 18.78 secs
+iters: 4630 / 5000, loss ==> 0.0061
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4640 / 5000, loss ==> 0.0067
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.77 secs
+iters: 4650 / 5000, loss ==> 0.0091
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4660 / 5000, loss ==> 0.0068
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.77 secs
+iters: 4670 / 5000, loss ==> 0.0106
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 4680 / 5000, loss ==> 0.0087
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.77 secs
+iters: 4690 / 5000, loss ==> 0.0080
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4700 / 5000, loss ==> 0.0072
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4710 / 5000, loss ==> 0.0066
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.86 secs
+iters: 4720 / 5000, loss ==> 0.0058
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4730 / 5000, loss ==> 0.0063
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4740 / 5000, loss ==> 0.0071
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4750 / 5000, loss ==> 0.0064
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4760 / 5000, loss ==> 0.0062
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.77 secs
+iters: 4770 / 5000, loss ==> 0.0069
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4780 / 5000, loss ==> 0.0088
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4790 / 5000, loss ==> 0.0068
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.78 secs
+iters: 4800 / 5000, loss ==> 0.0082
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4810 / 5000, loss ==> 0.0058
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4820 / 5000, loss ==> 0.0063
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4830 / 5000, loss ==> 0.0060
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4840 / 5000, loss ==> 0.0069
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4850 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4860 / 5000, loss ==> 0.0145
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 4870 / 5000, loss ==> 0.0072
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4880 / 5000, loss ==> 0.0077
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4890 / 5000, loss ==> 0.0066
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 19.20 secs
+iters: 4900 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 19.17 secs
+iters: 4910 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4920 / 5000, loss ==> 0.0073
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.77 secs
+iters: 4930 / 5000, loss ==> 0.0108
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.78 secs
+iters: 4940 / 5000, loss ==> 0.0083
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4950 / 5000, loss ==> 0.0074
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 19.86 secs
+iters: 4960 / 5000, loss ==> 0.0062
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 18.77 secs
+iters: 4970 / 5000, loss ==> 0.0102
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 18.77 secs
+iters: 4980 / 5000, loss ==> 0.0069
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 18.78 secs
+iters: 4990 / 5000, loss ==> 0.0065
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 18.77 secs
+calculating test accuracy: 100%|██████████████| 100/100 [00:52<00:00,  1.89it/s]
+whole test accuracy: 0.992099940777
+
+
++ set -e
++ export PYTHONUNBUFFERED=True
++ PYTHONUNBUFFERED=True
++ TAG=log
+++ date +%Y-%m-%d_%H-%M-%S
++ LOG=log.txt.2017-11-01_19-37-36
++ exec
+++ tee -a log.txt.2017-11-01_19-37-36
++ echo Logging output to log.txt.2017-11-01_19-37-36
+Logging output to log.txt.2017-11-01_19-37-36
++ python ./train.py
+Extracting ../data/train-images-idx3-ubyte.gz
+Extracting ../data/train-labels-idx1-ubyte.gz
+Extracting ../data/t10k-images-idx3-ubyte.gz
+Extracting ../data/t10k-labels-idx1-ubyte.gz
+2017-11-01 19:37:38.562536: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 19:37:38.562555: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 19:37:38.562574: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 19:37:38.562578: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 19:37:38.562580: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-01 19:37:38.665747: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-01 19:37:38.666058: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties:
+name: GeForce GTX 1060 6GB
+major: 6 minor: 1 memoryClockRate (GHz) 1.7845
+pciBusID 0000:01:00.0
+Total memory: 5.92GiB
+Free memory: 5.22GiB
+2017-11-01 19:37:38.666070: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0
+2017-11-01 19:37:38.666074: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y
+2017-11-01 19:37:38.666080: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0)
+Reading parameters from ../output/output_test/capsnet-4999
+calculating validation accuracy: 100%|##########| 50/50 [00:26<00:00,  1.91it/s]
+whole validation accuracy: 0.992400050163
+
+real	0m28.897s
+user	0m24.804s
+sys	0m4.616s

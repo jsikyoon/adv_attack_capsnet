@@ -1,0 +1,669 @@
++ echo Logging output to log.txt.2017-11-03_23-22-35
+Logging output to log.txt.2017-11-03_23-22-35
++ python ./train.py
+Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
+Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
+Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
+Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
+2017-11-03 23:22:39.405980: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 23:22:39.406037: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 23:22:39.406045: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 23:22:39.406051: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 23:22:39.406059: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 23:22:41.306259: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.8225
+pciBusID 0000:c1:00.0
+Total memory: 7.92GiB
+Free memory: 7.81GiB
+2017-11-03 23:22:41.306314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2017-11-03 23:22:41.306322: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2017-11-03 23:22:41.306341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:c1:00.0)
+Created model with fresh paramters.
+Num params: 8141840
+>>> 0 / 10 >>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 2017-11-03 23:22:47.721153: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 8367 get requests, put_count=8339 evicted_count=1000 eviction_rate=0.119918 and unsatisfied allocation rate=0.134815
+2017-11-03 23:22:47.721212: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+>>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 10 / 5000, loss ==> 0.5274 
+train accuracy: 0.6300
+val   accuracy: 0.5500
+average time: 11.66 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 20 / 5000, loss ==> 0.2688 
+train accuracy: 0.7600
+val   accuracy: 0.7800
+average time: 9.47 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 30 / 5000, loss ==> 0.1893 
+train accuracy: 0.8300
+val   accuracy: 0.9500
+average time: 9.44 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 40 / 5000, loss ==> 0.1482 
+train accuracy: 0.9100
+val   accuracy: 0.9500
+average time: 9.45 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 50 / 5000, loss ==> 0.1231 
+train accuracy: 0.9200
+val   accuracy: 0.9000
+average time: 9.53 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 60 / 5000, loss ==> 0.0937 
+train accuracy: 0.9800
+val   accuracy: 0.9600
+average time: 9.53 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 70 / 5000, loss ==> 0.1094 
+train accuracy: 0.9200
+val   accuracy: 0.9500
+average time: 9.52 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 80 / 5000, loss ==> 0.0900 
+train accuracy: 0.9400
+val   accuracy: 0.9500
+average time: 9.55 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 2017-11-03 23:24:06.438773: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 33463 get requests, put_count=33460 evicted_count=1000 eviction_rate=0.0298864 and unsatisfied allocation rate=0.0306607
+2017-11-03 23:24:06.438846: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+>>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 90 / 5000, loss ==> 0.0723 
+train accuracy: 0.9800
+val   accuracy: 0.9500
+average time: 9.55 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 100 / 5000, loss ==> 0.0761 
+train accuracy: 0.9700
+val   accuracy: 0.9600
+average time: 9.56 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 110 / 5000, loss ==> 0.0710 
+train accuracy: 0.9600
+val   accuracy: 0.9600
+average time: 9.56 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 120 / 5000, loss ==> 0.0633 
+train accuracy: 0.9700
+val   accuracy: 0.9600
+average time: 9.56 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 130 / 5000, loss ==> 0.0642 
+train accuracy: 0.9700
+val   accuracy: 0.9900
+average time: 9.55 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 140 / 5000, loss ==> 0.0635 
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 9.55 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 150 / 5000, loss ==> 0.0477 
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 9.59 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 160 / 5000, loss ==> 0.0569 
+train accuracy: 0.9800
+val   accuracy: 0.9600
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 170 / 5000, loss ==> 0.0684 
+train accuracy: 0.9300
+val   accuracy: 0.9800
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 180 / 5000, loss ==> 0.0599 
+train accuracy: 0.9600
+val   accuracy: 0.9800
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 190 / 5000, loss ==> 0.0663 
+train accuracy: 0.9600
+val   accuracy: 0.9400
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 200 / 5000, loss ==> 0.0598 
+train accuracy: 0.9600
+val   accuracy: 0.9600
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 210 / 5000, loss ==> 0.0512 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 220 / 5000, loss ==> 0.0508 
+train accuracy: 0.9700
+val   accuracy: 0.9400
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 230 / 5000, loss ==> 0.0607 
+train accuracy: 0.9600
+val   accuracy: 0.9900
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 240 / 5000, loss ==> 0.0612 
+train accuracy: 0.9700
+val   accuracy: 1.0000
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 250 / 5000, loss ==> 0.0548 
+train accuracy: 0.9800
+val   accuracy: 0.9700
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 260 / 5000, loss ==> 0.0459 
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 270 / 5000, loss ==> 0.0429 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 280 / 5000, loss ==> 0.0528 
+train accuracy: 0.9800
+val   accuracy: 0.9500
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 290 / 5000, loss ==> 0.0579 
+train accuracy: 0.9500
+val   accuracy: 0.9600
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 300 / 5000, loss ==> 0.0416 
+train accuracy: 0.9900
+val   accuracy: 0.9600
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 310 / 5000, loss ==> 0.0528 
+train accuracy: 0.9600
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 320 / 5000, loss ==> 0.0517 
+train accuracy: 0.9900
+val   accuracy: 0.9600
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 330 / 5000, loss ==> 0.0297 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 340 / 5000, loss ==> 0.0513 
+train accuracy: 0.9700
+val   accuracy: 0.9600
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 350 / 5000, loss ==> 0.0493 
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 360 / 5000, loss ==> 0.0378 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 370 / 5000, loss ==> 0.0457 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 380 / 5000, loss ==> 0.0434 
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 390 / 5000, loss ==> 0.0402 
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 400 / 5000, loss ==> 0.0428 
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 410 / 5000, loss ==> 0.0547 
+train accuracy: 0.9600
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 420 / 5000, loss ==> 0.0338 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 430 / 5000, loss ==> 0.0558 
+train accuracy: 0.9600
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 440 / 5000, loss ==> 0.0625 
+train accuracy: 0.9500
+val   accuracy: 0.9600
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 450 / 5000, loss ==> 0.0388 
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 460 / 5000, loss ==> 0.0344 
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 470 / 5000, loss ==> 0.0403 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 480 / 5000, loss ==> 0.0424 
+train accuracy: 0.9700
+val   accuracy: 1.0000
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 490 / 5000, loss ==> 0.0426 
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 500 / 5000, loss ==> 0.0347 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+calculating validation accuracy:   0%|          | 0/50 [00:00<?, ?it/s]calculating validation accuracy:   2%|2         | 1/50 [00:00<00:14,  3.38it/s]calculating validation accuracy:   4%|4         | 2/50 [00:00<00:13,  3.54it/s]calculating validation accuracy:   6%|6         | 3/50 [00:00<00:13,  3.60it/s]calculating validation accuracy:   8%|8         | 4/50 [00:01<00:12,  3.63it/s]calculating validation accuracy:  10%|#         | 5/50 [00:01<00:12,  3.64it/s]calculating validation accuracy:  12%|#2        | 6/50 [00:01<00:12,  3.66it/s]calculating validation accuracy:  14%|#4        | 7/50 [00:01<00:11,  3.66it/s]calculating validation accuracy:  16%|#6        | 8/50 [00:02<00:11,  3.67it/s]calculating validation accuracy:  18%|#8        | 9/50 [00:02<00:11,  3.68it/s]calculating validation accuracy:  20%|##        | 10/50 [00:02<00:10,  3.68it/s]calculating validation accuracy:  22%|##2       | 11/50 [00:02<00:10,  3.68it/s]calculating validation accuracy:  24%|##4       | 12/50 [00:03<00:10,  3.69it/s]calculating validation accuracy:  26%|##6       | 13/50 [00:03<00:10,  3.69it/s]calculating validation accuracy:  28%|##8       | 14/50 [00:03<00:09,  3.69it/s]calculating validation accuracy:  30%|###       | 15/50 [00:04<00:09,  3.69it/s]calculating validation accuracy:  32%|###2      | 16/50 [00:04<00:09,  3.69it/s]calculating validation accuracy:  34%|###4      | 17/50 [00:04<00:08,  3.69it/s]calculating validation accuracy:  36%|###6      | 18/50 [00:04<00:08,  3.70it/s]calculating validation accuracy:  38%|###8      | 19/50 [00:05<00:08,  3.70it/s]calculating validation accuracy:  40%|####      | 20/50 [00:05<00:08,  3.70it/s]calculating validation accuracy:  42%|####2     | 21/50 [00:05<00:07,  3.70it/s]calculating validation accuracy:  44%|####4     | 22/50 [00:05<00:07,  3.70it/s]calculating validation accuracy:  46%|####6     | 23/50 [00:06<00:07,  3.70it/s]calculating validation accuracy:  48%|####8     | 24/50 [00:06<00:07,  3.70it/s]calculating validation accuracy:  50%|#####     | 25/50 [00:06<00:06,  3.70it/s]calculating validation accuracy:  52%|#####2    | 26/50 [00:07<00:06,  3.70it/s]calculating validation accuracy:  54%|#####4    | 27/50 [00:07<00:06,  3.70it/s]calculating validation accuracy:  56%|#####6    | 28/50 [00:07<00:05,  3.70it/s]calculating validation accuracy:  58%|#####8    | 29/50 [00:07<00:05,  3.70it/s]calculating validation accuracy:  60%|######    | 30/50 [00:08<00:05,  3.70it/s]calculating validation accuracy:  62%|######2   | 31/50 [00:08<00:05,  3.70it/s]calculating validation accuracy:  64%|######4   | 32/50 [00:08<00:04,  3.70it/s]calculating validation accuracy:  66%|######6   | 33/50 [00:08<00:04,  3.70it/s]calculating validation accuracy:  68%|######8   | 34/50 [00:09<00:04,  3.70it/s]calculating validation accuracy:  70%|#######   | 35/50 [00:09<00:04,  3.71it/s]calculating validation accuracy:  72%|#######2  | 36/50 [00:09<00:03,  3.71it/s]calculating validation accuracy:  74%|#######4  | 37/50 [00:09<00:03,  3.71it/s]calculating validation accuracy:  76%|#######6  | 38/50 [00:10<00:03,  3.71it/s]calculating validation accuracy:  78%|#######8  | 39/50 [00:10<00:02,  3.71it/s]calculating validation accuracy:  80%|########  | 40/50 [00:10<00:02,  3.71it/s]calculating validation accuracy:  82%|########2 | 41/50 [00:11<00:02,  3.71it/s]calculating validation accuracy:  84%|########4 | 42/50 [00:11<00:02,  3.71it/s]calculating validation accuracy:  86%|########6 | 43/50 [00:11<00:01,  3.71it/s]calculating validation accuracy:  88%|########8 | 44/50 [00:11<00:01,  3.71it/s]calculating validation accuracy:  90%|######### | 45/50 [00:12<00:01,  3.71it/s]calculating validation accuracy:  92%|#########2| 46/50 [00:12<00:01,  3.71it/s]calculating validation accuracy:  94%|#########3| 47/50 [00:12<00:00,  3.71it/s]calculating validation accuracy:  96%|#########6| 48/50 [00:12<00:00,  3.71it/s]calculating validation accuracy:  98%|#########8| 49/50 [00:13<00:00,  3.71it/s]calculating validation accuracy: 100%|##########| 50/50 [00:13<00:00,  3.71it/s]
+whole validation accuracy: 0.984400033951
+average time: 23.65 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 510 / 5000, loss ==> 0.0294 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 520 / 5000, loss ==> 0.0337 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 530 / 5000, loss ==> 0.0316 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 540 / 5000, loss ==> 0.0390 
+train accuracy: 0.9700
+val   accuracy: 1.0000
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 550 / 5000, loss ==> 0.0498 
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 9.79 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 560 / 5000, loss ==> 0.0269 
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 570 / 5000, loss ==> 0.0364 
+train accuracy: 0.9700
+val   accuracy: 0.9600
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 580 / 5000, loss ==> 0.0525 
+train accuracy: 0.9600
+val   accuracy: 0.9600
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 590 / 5000, loss ==> 0.0361 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 600 / 5000, loss ==> 0.0333 
+train accuracy: 0.9800
+val   accuracy: 0.9600
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 610 / 5000, loss ==> 0.0331 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 620 / 5000, loss ==> 0.0392 
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 630 / 5000, loss ==> 0.0324 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 640 / 5000, loss ==> 0.0275 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 650 / 5000, loss ==> 0.0460 
+train accuracy: 0.9600
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 660 / 5000, loss ==> 0.0400 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 670 / 5000, loss ==> 0.0366 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 680 / 5000, loss ==> 0.0397 
+train accuracy: 0.9600
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 690 / 5000, loss ==> 0.0297 
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 700 / 5000, loss ==> 0.0293 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 710 / 5000, loss ==> 0.0354 
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 720 / 5000, loss ==> 0.0378 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 730 / 5000, loss ==> 0.0456 
+train accuracy: 0.9700
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 740 / 5000, loss ==> 0.0273 
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 750 / 5000, loss ==> 0.0269 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 760 / 5000, loss ==> 0.0450 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 770 / 5000, loss ==> 0.0296 
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 780 / 5000, loss ==> 0.0281 
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 790 / 5000, loss ==> 0.0356 
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 800 / 5000, loss ==> 0.0253 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 810 / 5000, loss ==> 0.0227 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 820 / 5000, loss ==> 0.0217 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 830 / 5000, loss ==> 0.0404 
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 840 / 5000, loss ==> 0.0231 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 850 / 5000, loss ==> 0.0321 
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 860 / 5000, loss ==> 0.0238 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 870 / 5000, loss ==> 0.0260 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 880 / 5000, loss ==> 0.0312 
+train accuracy: 0.9800
+val   accuracy: 0.9700
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 890 / 5000, loss ==> 0.0237 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 900 / 5000, loss ==> 0.0355 
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 910 / 5000, loss ==> 0.0232 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 920 / 5000, loss ==> 0.0197 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 930 / 5000, loss ==> 0.0279 
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 940 / 5000, loss ==> 0.0231 
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 950 / 5000, loss ==> 0.0204 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 960 / 5000, loss ==> 0.0273 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 970 / 5000, loss ==> 0.0270 
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 980 / 5000, loss ==> 0.0268 
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 990 / 5000, loss ==> 0.0340 
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1000 / 5000, loss ==> 0.0303 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+calculating validation accuracy:   0%|          | 0/50 [00:00<?, ?it/s]calculating validation accuracy:   2%|2         | 1/50 [00:00<00:13,  3.71it/s]calculating validation accuracy:   4%|4         | 2/50 [00:00<00:12,  3.72it/s]calculating validation accuracy:   6%|6         | 3/50 [00:00<00:12,  3.71it/s]calculating validation accuracy:   8%|8         | 4/50 [00:01<00:12,  3.71it/s]calculating validation accuracy:  10%|#         | 5/50 [00:01<00:12,  3.71it/s]calculating validation accuracy:  12%|#2        | 6/50 [00:01<00:11,  3.71it/s]calculating validation accuracy:  14%|#4        | 7/50 [00:01<00:11,  3.71it/s]calculating validation accuracy:  16%|#6        | 8/50 [00:02<00:11,  3.71it/s]calculating validation accuracy:  18%|#8        | 9/50 [00:02<00:11,  3.71it/s]calculating validation accuracy:  20%|##        | 10/50 [00:02<00:10,  3.71it/s]calculating validation accuracy:  22%|##2       | 11/50 [00:02<00:10,  3.71it/s]calculating validation accuracy:  24%|##4       | 12/50 [00:03<00:10,  3.71it/s]calculating validation accuracy:  26%|##6       | 13/50 [00:03<00:09,  3.71it/s]calculating validation accuracy:  28%|##8       | 14/50 [00:03<00:09,  3.71it/s]calculating validation accuracy:  30%|###       | 15/50 [00:04<00:09,  3.71it/s]calculating validation accuracy:  32%|###2      | 16/50 [00:04<00:09,  3.71it/s]calculating validation accuracy:  34%|###4      | 17/50 [00:04<00:08,  3.71it/s]calculating validation accuracy:  36%|###6      | 18/50 [00:04<00:08,  3.71it/s]calculating validation accuracy:  38%|###8      | 19/50 [00:05<00:08,  3.71it/s]calculating validation accuracy:  40%|####      | 20/50 [00:05<00:08,  3.71it/s]calculating validation accuracy:  42%|####2     | 21/50 [00:05<00:07,  3.71it/s]calculating validation accuracy:  44%|####4     | 22/50 [00:05<00:07,  3.71it/s]calculating validation accuracy:  46%|####6     | 23/50 [00:06<00:07,  3.71it/s]calculating validation accuracy:  48%|####8     | 24/50 [00:06<00:07,  3.71it/s]calculating validation accuracy:  50%|#####     | 25/50 [00:06<00:06,  3.71it/s]calculating validation accuracy:  52%|#####2    | 26/50 [00:07<00:06,  3.71it/s]calculating validation accuracy:  54%|#####4    | 27/50 [00:07<00:06,  3.71it/s]calculating validation accuracy:  56%|#####6    | 28/50 [00:07<00:05,  3.71it/s]calculating validation accuracy:  58%|#####8    | 29/50 [00:07<00:05,  3.71it/s]calculating validation accuracy:  60%|######    | 30/50 [00:08<00:05,  3.71it/s]calculating validation accuracy:  62%|######2   | 31/50 [00:08<00:05,  3.71it/s]calculating validation accuracy:  64%|######4   | 32/50 [00:08<00:04,  3.71it/s]calculating validation accuracy:  66%|######6   | 33/50 [00:08<00:04,  3.71it/s]calculating validation accuracy:  68%|######8   | 34/50 [00:09<00:04,  3.71it/s]calculating validation accuracy:  70%|#######   | 35/50 [00:09<00:04,  3.71it/s]calculating validation accuracy:  72%|#######2  | 36/50 [00:09<00:03,  3.71it/s]calculating validation accuracy:  74%|#######4  | 37/50 [00:09<00:03,  3.71it/s]calculating validation accuracy:  76%|#######6  | 38/50 [00:10<00:03,  3.71it/s]calculating validation accuracy:  78%|#######8  | 39/50 [00:10<00:02,  3.71it/s]calculating validation accuracy:  80%|########  | 40/50 [00:10<00:02,  3.71it/s]calculating validation accuracy:  82%|########2 | 41/50 [00:11<00:02,  3.71it/s]calculating validation accuracy:  84%|########4 | 42/50 [00:11<00:02,  3.71it/s]calculating validation accuracy:  86%|########6 | 43/50 [00:11<00:01,  3.71it/s]calculating validation accuracy:  88%|########8 | 44/50 [00:11<00:01,  3.71it/s]calculating validation accuracy:  90%|######### | 45/50 [00:12<00:01,  3.71it/s]calculating validation accuracy:  92%|#########2| 46/50 [00:12<00:01,  3.71it/s]calculating validation accuracy:  94%|#########3| 47/50 [00:12<00:00,  3.71it/s]calculating validation accuracy:  96%|#########6| 48/50 [00:12<00:00,  3.71it/s]calculating validation accuracy:  98%|#########8| 49/50 [00:13<00:00,  3.71it/s]calculating validation accuracy: 100%|##########| 50/50 [00:13<00:00,  3.71it/s]
+whole validation accuracy: 0.987400054932
+average time: 23.51 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1010 / 5000, loss ==> 0.0263 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1020 / 5000, loss ==> 0.0277 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1030 / 5000, loss ==> 0.0252 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1040 / 5000, loss ==> 0.0354 
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1050 / 5000, loss ==> 0.0295 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1060 / 5000, loss ==> 0.0298 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1070 / 5000, loss ==> 0.0253 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1080 / 5000, loss ==> 0.0212 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1090 / 5000, loss ==> 0.0307 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1100 / 5000, loss ==> 0.0231 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.79 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1110 / 5000, loss ==> 0.0206 
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1120 / 5000, loss ==> 0.0354 
+train accuracy: 0.9800
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1130 / 5000, loss ==> 0.0318 
+train accuracy: 0.9800
+val   accuracy: 0.9800
+average time: 9.60 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1140 / 5000, loss ==> 0.0220 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1150 / 5000, loss ==> 0.0184 
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1160 / 5000, loss ==> 0.0158 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1170 / 5000, loss ==> 0.0197 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1180 / 5000, loss ==> 0.0181 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1190 / 5000, loss ==> 0.0185 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1200 / 5000, loss ==> 0.0265 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1210 / 5000, loss ==> 0.0234 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1220 / 5000, loss ==> 0.0264 
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1230 / 5000, loss ==> 0.0264 
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1240 / 5000, loss ==> 0.0238 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1250 / 5000, loss ==> 0.0182 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1260 / 5000, loss ==> 0.0268 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1270 / 5000, loss ==> 0.0304 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1280 / 5000, loss ==> 0.0304 
+train accuracy: 0.9800
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1290 / 5000, loss ==> 0.0215 
+train accuracy: 0.9900
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1300 / 5000, loss ==> 0.0158 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1310 / 5000, loss ==> 0.0152 
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1320 / 5000, loss ==> 0.0201 
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1330 / 5000, loss ==> 0.0219 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1340 / 5000, loss ==> 0.0157 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1350 / 5000, loss ==> 0.0188 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1360 / 5000, loss ==> 0.0173 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1370 / 5000, loss ==> 0.0214 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1380 / 5000, loss ==> 0.0214 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.62 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1390 / 5000, loss ==> 0.0182 
+train accuracy: 0.9900
+val   accuracy: 0.9700
+average time: 9.63 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1400 / 5000, loss ==> 0.0154 
+train accuracy: 1.0000
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1410 / 5000, loss ==> 0.0135 
+train accuracy: 1.0000
+val   accuracy: 0.9700
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1420 / 5000, loss ==> 0.0212 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1430 / 5000, loss ==> 0.0153 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1440 / 5000, loss ==> 0.0197 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1450 / 5000, loss ==> 0.0149 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1460 / 5000, loss ==> 0.0230 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1470 / 5000, loss ==> 0.0283 
+train accuracy: 0.9700
+val   accuracy: 0.9800
+average time: 9.63 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1480 / 5000, loss ==> 0.0220 
+train accuracy: 0.9900
+val   accuracy: 1.0000
+average time: 9.63 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1490 / 5000, loss ==> 0.0226 
+train accuracy: 1.0000
+val   accuracy: 1.0000
+average time: 9.63 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1500 / 5000, loss ==> 0.0345 
+train accuracy: 0.9500
+val   accuracy: 0.9900
+calculating validation accuracy:   0%|          | 0/50 [00:00<?, ?it/s]calculating validation accuracy:   2%|2         | 1/50 [00:00<00:13,  3.70it/s]calculating validation accuracy:   4%|4         | 2/50 [00:00<00:12,  3.71it/s]calculating validation accuracy:   6%|6         | 3/50 [00:00<00:12,  3.71it/s]calculating validation accuracy:   8%|8         | 4/50 [00:01<00:12,  3.71it/s]calculating validation accuracy:  10%|#         | 5/50 [00:01<00:12,  3.71it/s]calculating validation accuracy:  12%|#2        | 6/50 [00:01<00:11,  3.71it/s]calculating validation accuracy:  14%|#4        | 7/50 [00:01<00:11,  3.71it/s]calculating validation accuracy:  16%|#6        | 8/50 [00:02<00:11,  3.71it/s]calculating validation accuracy:  18%|#8        | 9/50 [00:02<00:11,  3.71it/s]calculating validation accuracy:  20%|##        | 10/50 [00:02<00:10,  3.71it/s]calculating validation accuracy:  22%|##2       | 11/50 [00:02<00:10,  3.71it/s]calculating validation accuracy:  24%|##4       | 12/50 [00:03<00:10,  3.71it/s]calculating validation accuracy:  26%|##6       | 13/50 [00:03<00:09,  3.71it/s]calculating validation accuracy:  28%|##8       | 14/50 [00:03<00:09,  3.71it/s]calculating validation accuracy:  30%|###       | 15/50 [00:04<00:09,  3.71it/s]calculating validation accuracy:  32%|###2      | 16/50 [00:04<00:09,  3.71it/s]calculating validation accuracy:  34%|###4      | 17/50 [00:04<00:08,  3.71it/s]calculating validation accuracy:  36%|###6      | 18/50 [00:04<00:08,  3.71it/s]calculating validation accuracy:  38%|###8      | 19/50 [00:05<00:08,  3.71it/s]calculating validation accuracy:  40%|####      | 20/50 [00:05<00:08,  3.71it/s]calculating validation accuracy:  42%|####2     | 21/50 [00:05<00:07,  3.71it/s]calculating validation accuracy:  44%|####4     | 22/50 [00:05<00:07,  3.71it/s]calculating validation accuracy:  46%|####6     | 23/50 [00:06<00:07,  3.71it/s]calculating validation accuracy:  48%|####8     | 24/50 [00:06<00:07,  3.71it/s]calculating validation accuracy:  50%|#####     | 25/50 [00:06<00:06,  3.71it/s]calculating validation accuracy:  52%|#####2    | 26/50 [00:07<00:06,  3.71it/s]calculating validation accuracy:  54%|#####4    | 27/50 [00:07<00:06,  3.71it/s]calculating validation accuracy:  56%|#####6    | 28/50 [00:07<00:05,  3.71it/s]calculating validation accuracy:  58%|#####8    | 29/50 [00:07<00:05,  3.71it/s]calculating validation accuracy:  60%|######    | 30/50 [00:08<00:05,  3.71it/s]calculating validation accuracy:  62%|######2   | 31/50 [00:08<00:05,  3.71it/s]calculating validation accuracy:  64%|######4   | 32/50 [00:08<00:04,  3.71it/s]calculating validation accuracy:  66%|######6   | 33/50 [00:08<00:04,  3.71it/s]calculating validation accuracy:  68%|######8   | 34/50 [00:09<00:04,  3.71it/s]calculating validation accuracy:  70%|#######   | 35/50 [00:09<00:04,  3.71it/s]calculating validation accuracy:  72%|#######2  | 36/50 [00:09<00:03,  3.71it/s]calculating validation accuracy:  74%|#######4  | 37/50 [00:09<00:03,  3.71it/s]calculating validation accuracy:  76%|#######6  | 38/50 [00:10<00:03,  3.71it/s]calculating validation accuracy:  78%|#######8  | 39/50 [00:10<00:02,  3.71it/s]calculating validation accuracy:  80%|########  | 40/50 [00:10<00:02,  3.71it/s]calculating validation accuracy:  82%|########2 | 41/50 [00:11<00:02,  3.71it/s]calculating validation accuracy:  84%|########4 | 42/50 [00:11<00:02,  3.71it/s]calculating validation accuracy:  86%|########6 | 43/50 [00:11<00:01,  3.71it/s]calculating validation accuracy:  88%|########8 | 44/50 [00:11<00:01,  3.71it/s]calculating validation accuracy:  90%|######### | 45/50 [00:12<00:01,  3.71it/s]calculating validation accuracy:  92%|#########2| 46/50 [00:12<00:01,  3.71it/s]calculating validation accuracy:  94%|#########3| 47/50 [00:12<00:00,  3.71it/s]calculating validation accuracy:  96%|#########6| 48/50 [00:12<00:00,  3.71it/s]calculating validation accuracy:  98%|#########8| 49/50 [00:13<00:00,  3.71it/s]calculating validation accuracy: 100%|##########| 50/50 [00:13<00:00,  3.71it/s]
+whole validation accuracy: 0.989400029182
+average time: 23.71 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1510 / 5000, loss ==> 0.0181 
+train accuracy: 1.0000
+val   accuracy: 0.9800
+average time: 9.64 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1520 / 5000, loss ==> 0.0260 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.63 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1530 / 5000, loss ==> 0.0201 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 >>> 9 / 10 >>> 0 / 10 iters: 1540 / 5000, loss ==> 0.0266 
+train accuracy: 0.9900
+val   accuracy: 0.9900
+average time: 9.61 secs
+>>> 1 / 10 >>> 2 / 10 >>> 3 / 10 >>> 4 / 10 >>> 5 / 10 >>> 6 / 10 >>> 7 / 10 >>> 8 / 10 Traceback (most recent call last):
+  File "./train.py", line 81, in <module>
+    tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/platform/app.py", line 48, in run
+    _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+  File "./train.py", line 65, in main
+    caps_net.train_with_summary(sess, batch_size=100, iters=iters)
+  File "/global/home/i338425/work/tensorflow/CapsNet-tensorflow/code/CapsNet.py", line 417, in train_with_summary
+    self._y_: batch[1]})
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 789, in run
+    run_metadata_ptr)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 997, in _run
+    feed_dict_string, options, run_metadata)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1132, in _do_run
+    target_list, options, run_metadata)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1139, in _do_call
+    return fn(*args)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1121, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt

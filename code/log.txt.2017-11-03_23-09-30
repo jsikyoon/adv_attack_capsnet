@@ -1,0 +1,9 @@
++ echo Logging output to log.txt.2017-11-03_23-09-30
+Logging output to log.txt.2017-11-03_23-09-30
++ python ./train.py
+Traceback (most recent call last):
+  File "./train.py", line 15, in <module>
+    from config import cfg
+  File "/global/home/i338425/work/tensorflow/CapsNet-tensorflow/code/config.py", line 9, in <module>
+    from easydict import EasyDict as edict
+ImportError: No module named easydict

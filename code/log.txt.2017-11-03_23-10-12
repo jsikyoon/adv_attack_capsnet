@@ -1,0 +1,25 @@
++ echo Logging output to log.txt.2017-11-03_23-10-12
+Logging output to log.txt.2017-11-03_23-10-12
++ python ./train.py
+Successfully downloaded train-images-idx3-ubyte.gz 8946 bytes.
+Extracting ../data/train-images-idx3-ubyte.gz
+Traceback (most recent call last):
+  File "./train.py", line 81, in <module>
+    tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/platform/app.py", line 48, in run
+    _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+  File "./train.py", line 32, in main
+    mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True)
+  File "/usr/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py", line 237, in read_data_sets
+    train_images = extract_images(f)
+  File "/usr/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py", line 55, in extract_images
+    magic = _read32(bytestream)
+  File "/usr/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py", line 37, in _read32
+    return numpy.frombuffer(bytestream.read(4), dtype=dt)[0]
+  File "/usr/lib64/python2.7/gzip.py", line 268, in read
+    self._read(readsize)
+  File "/usr/lib64/python2.7/gzip.py", line 303, in _read
+    self._read_gzip_header()
+  File "/usr/lib64/python2.7/gzip.py", line 197, in _read_gzip_header
+    raise IOError, 'Not a gzipped file'
+IOError: Not a gzipped file
