@@ -14,6 +14,8 @@ from tqdm import tqdm
 
 from config import cfg
 
+#Added by Jaesik Yoon
+from get_data import image_save
 
 def squash(cap_input):
     """
@@ -460,7 +462,7 @@ class CapsNet(object):
         print("whole {} accuracy: {}".format(set, all_ac))
    
     # added by Jaesik Yoon 
-    def adv_validation(self, sess, set, x_adv, max_iter):
+    def adv_validation(self, sess, set, x_adv, max_iter,fname=None):
         if set == 'test':
             x = self._mnist.test.images
             y_ = self._mnist.test.labels
@@ -477,9 +479,11 @@ class CapsNet(object):
             y_i = y_[i * 100: (i + 1) * 100]
             for j in range(max_iter):
               x_i=sess.run(x_adv,feed_dict={self._x:x_i,self._y_:y_i});
-            ac = sess.run(self.accuracy,
-                          feed_dict={self._x: x_i,
-                                     self._y_: y_i})
-            acc.append(ac)
-        all_ac = np.mean(np.array(acc))
-        print("whole {} accuracy: {}".format(set, all_ac))
+            image_save(x_i,fname);
+            return;
+            #ac = sess.run(self.accuracy,
+            #              feed_dict={self._x: x_i,
+            #                         self._y_: y_i})
+            #acc.append(ac)
+        #all_ac = np.mean(np.array(acc))
+        #print("whole {} accuracy: {}".format(set, all_ac))

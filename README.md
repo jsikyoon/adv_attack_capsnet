@@ -122,6 +122,8 @@ Experiments Results (MNIST)
 
 - Max iter. for basic iter. and iter. l.l is 5.
 
+- gif file is adversarial examples with max_epsilon from 5 to 50
+
 ### FGSM
 
 ![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/fgsm.PNG)
@@ -134,6 +136,8 @@ adv. Training with basic iter.|0.992 |0.985 |0.983 |0.979 |0.970 |0.969 |0.962 |
 adv. Training with step l.l|0.992 |0.972 |0.971 |0.959 |0.961 |0.959 |0.950 |0.941 |0.969 |0.939 |0.895 
 adv. Training with iter l.l|0.992 |0.970 |0.976 |0.968 |0.967 |0.959 |0.959 |0.950 |0.938 |0.938 |0.921 
 CapsNet|0.991 |0.942|0.854|0.785|0.749|0.721|0.694|0.671|0.648|0.623|0.602
+
+![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/FGSM.gif)
 
 ### Basic iter.
 
@@ -148,6 +152,8 @@ adv. Training with step l.l|0.992 |0.990 |0.991 |0.989 |0.989 |0.986 |0.986 |0.9
 adv. Training with iter l.l|0.992 |0.991 |0.990 |0.989 |0.990 |0.988 |0.990 |0.988 |0.982 |0.982 |0.982 
 CapsNet|0.991 |0.936|0.800|0.647|0.517|0.423|0.357|0.313|0.277|0.252|0.236
 
+![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/basic_iter.gif)
+
 ### step l.l
 
 ![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/step_ll.PNG)
@@ -161,6 +167,8 @@ adv. Training with step l.l|0.992 |0.985 |0.984 |0.978 |0.979 |0.978 |0.981 |0.9
 adv. Training with iter l.l|0.992 |0.985 |0.982 |0.976 |0.978 |0.972 |0.974 |0.967 |0.963 |0.961 |0.958 
 CapsNet|0.991 |0.979 |0.881 |0.702 |0.546 |0.431 |0.358 |0.303 |0.260 |0.226 |0.196 
 
+![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/step_ll.gif)
+
 ### iter l.l
 
 ![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/iter_ll.PNG)
@@ -173,6 +181,8 @@ adv. Training with basic iter.|0.992 |0.988 |0.989 |0.987 |0.986 |0.982 |0.981 |
 adv. Training with step l.l|0.992 |0.988 |0.987 |0.983 |0.980 |0.974 |0.898 |0.944 |0.861 |0.602 |0.166 
 adv. Training with iter l.l|0.992 |0.989 |0.986 |0.981 |0.982 |0.977 |0.978 |0.973 |0.967 |0.967 |0.962 
 CapsNet|0.991 |0.985 |0.933 |0.854 |0.787 |0.733 |0.684 |0.623 |0.578 |0.535 |0.491 
+
+![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/iter_ll.gif)
 
 Discussion
 -------------
