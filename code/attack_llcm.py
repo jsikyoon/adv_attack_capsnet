@@ -29,7 +29,7 @@ def model_test():
 
 def main(_):
     # Max Epsilon
-    eps = 2.0 * FLAGS.max_epsilon / 256.0 /FLAGS.max_iter;
+    eps = 1.0 * FLAGS.max_epsilon / 256.0 /FLAGS.max_iter;
     # Import data
     mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True)
     tf.reset_default_graph()

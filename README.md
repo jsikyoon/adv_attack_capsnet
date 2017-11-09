@@ -118,7 +118,7 @@ Experiments Results (MNIST)
 
 - Epsilon is calculated with infinity norm
 
-- Max epoch is 100
+- Max epoch is 50
 
 - Max iter. for basic iter. and iter. l.l is 5.
 
@@ -130,12 +130,12 @@ Experiments Results (MNIST)
 
 FGSM|0 |5 |10 |15 |20 |25 |30 |35 |40 |45 |50 
 ----|--|--|---|---|---|---|---|---|---|---|--
-naiive model|0.992 |0.929 |0.806 |0.601 |0.412 |0.276 |0.190 |0.137 |0.104 |0.084 |0.071 
-adv. Training with FGSM|0.992 |0.985 |0.976 |0.978 |0.971 |0.972 |0.977 |0.965 |0.965 |0.928 |0.978 
-adv. Training with basic iter.|0.992 |0.985 |0.983 |0.979 |0.970 |0.969 |0.962 |0.970 |0.970 |0.976 |0.972 
-adv. Training with step l.l|0.992 |0.972 |0.971 |0.959 |0.961 |0.959 |0.950 |0.941 |0.969 |0.939 |0.895 
-adv. Training with iter l.l|0.992 |0.970 |0.976 |0.968 |0.967 |0.959 |0.959 |0.950 |0.938 |0.938 |0.921 
-CapsNet|0.991 |0.942|0.854|0.785|0.749|0.721|0.694|0.671|0.648|0.623|0.602
+naiive model|0.990 |0.984 |0.966 |0.941 |0.920 |0.883 |0.826 |0.759 |0.683 |0.606 |0.529 
+adv. Training with FGSM|0.992 |0.988 |0.984 |0.984 |0.979 |0.975 |0.958 |0.965 |0.960 |0.957 |0.955 
+adv. Training with basic iter.|0.992 |0.989 |0.986 |0.977 |0.975 |0.974 |0.971 |0.969 |0.962 |0.964 |0.958 
+adv. Training with step l.l|0.992 |0.987 |0.978 |0.973 |0.966 |0.958 |0.955 |0.949 |0.928 |0.942 |0.934 
+adv. Training with iter l.l|0.992 |0.986 |0.980 |0.967 |0.958 |0.968 |0.961 |0.959 |0.953 |0.946 |0.942 
+CapsNet|0.991 |0.975 |0.942 |0.901 |0.854 |0.812 |0.785 |0.765 |0.749 |0.736 |0.721 
 
 ![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/FGSM.gif)
 
@@ -143,14 +143,14 @@ CapsNet|0.991 |0.942|0.854|0.785|0.749|0.721|0.694|0.671|0.648|0.623|0.602
 
 ![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/basic_iter.PNG)
 
-Basic Iter.|0 |5 |10 |15 |20 |25 |30 |35 |40 |45 |50 
+Basic iter.|0 |5 |10 |15 |20 |25 |30 |35 |40 |45 |50 
 -----------|--|--|---|---|---|---|---|---|---|---|--
-naiive model|0.992 |0.988 |0.981 |0.592 |0.518 |0.494 |0.493 |0.501 |0.499 |0.494 |0.453 
-adv. Training with FGSM|0.992 |0.992 |0.992 |0.992 |0.991 |0.989 |0.982 |0.979 |0.947 |0.967 |0.923 
-adv. Training with basic iter.|0.992 |0.991 |0.991 |0.990 |0.990 |0.990 |0.990 |0.990 |0.990 |0.988 |0.986 
-adv. Training with step l.l|0.992 |0.990 |0.991 |0.989 |0.989 |0.986 |0.986 |0.980 |0.986 |0.970 |0.895 
-adv. Training with iter l.l|0.992 |0.991 |0.990 |0.989 |0.990 |0.988 |0.990 |0.988 |0.982 |0.982 |0.982 
-CapsNet|0.991 |0.936|0.800|0.647|0.517|0.423|0.357|0.313|0.277|0.252|0.236
+naiive model|0.990 |0.986 |0.974 |0.952 |0.915 |0.866 |0.807 |0.736 |0.681 |0.647 |0.623 
+adv. Training with FGSM|0.992 |0.989 |0.987 |0.987 |0.982 |0.966 |0.966 |0.960 |0.959 |0.950 |0.944 
+adv. Training with basic iter.|0.992 |0.989 |0.989 |0.982 |0.979 |0.977 |0.977 |0.974 |0.971 |0.970 |0.965 
+adv. Training with step l.l|0.992 |0.989 |0.982 |0.979 |0.973 |0.966 |0.959 |0.946 |0.924 |0.934 |0.915 
+adv. Training with iter l.l|0.992 |0.988 |0.984 |0.974 |0.968 |0.972 |0.965 |0.962 |0.955 |0.947 |0.942 
+CapsNet|0.991 |0.975 |0.936 |0.877 |0.800 |0.721 |0.647 |0.579 |0.517 |0.465 |0.423 
 
 ![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/basic_iter.gif)
 
@@ -160,12 +160,12 @@ CapsNet|0.991 |0.936|0.800|0.647|0.517|0.423|0.357|0.313|0.277|0.252|0.236
 
 step l.l|0 |5 |10 |15 |20 |25 |30 |35 |40 |45 |50 
 --------|--|--|---|---|---|---|---|---|---|---|--
-naiive model|0.992 |0.970 |0.877 |0.651 |0.309 |0.078 |0.013 |0.003 |0.002 |0.001 |0.001 
-adv. Training with FGSM|0.992 |0.989 |0.988 |0.987 |0.985 |0.983 |0.971 |0.970 |0.911 |0.949 |0.943 
-adv. Training with basic iter.|0.992 |0.987 |0.987 |0.984 |0.980 |0.979 |0.978 |0.974 |0.974 |0.984 |0.979 
-adv. Training with step l.l|0.992 |0.985 |0.984 |0.978 |0.979 |0.978 |0.981 |0.970 |0.984 |0.979 |0.985 
-adv. Training with iter l.l|0.992 |0.985 |0.982 |0.976 |0.978 |0.972 |0.974 |0.967 |0.963 |0.961 |0.958 
-CapsNet|0.991 |0.979 |0.881 |0.702 |0.546 |0.431 |0.358 |0.303 |0.260 |0.226 |0.196 
+naiive model|0.990 |0.988 |0.982 |0.971 |0.951 |0.923 |0.883 |0.817 |0.740 |0.637 |0.511 
+adv. Training with FGSM|0.992 |0.991 |0.990 |0.991 |0.988 |0.975 |0.980 |0.983 |0.980 |0.980 |0.978 
+adv. Training with basic iter.|0.992 |0.989 |0.990 |0.984 |0.983 |0.984 |0.985 |0.981 |0.981 |0.981 |0.978 
+adv. Training with step l.l|0.992 |0.989 |0.987 |0.987 |0.985 |0.982 |0.979 |0.973 |0.967 |0.972 |0.970 
+adv. Training with iter l.l|0.992 |0.989 |0.988 |0.985 |0.983 |0.977 |0.977 |0.973 |0.971 |0.969 |0.966 
+CapsNet|0.991 |0.991 |0.979 |0.946 |0.880 |0.797 |0.702 |0.619 |0.546 |0.484 |0.431 
 
 ![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/step_ll.gif)
 
@@ -175,16 +175,16 @@ CapsNet|0.991 |0.979 |0.881 |0.702 |0.546 |0.431 |0.358 |0.303 |0.260 |0.226 |0.
 
 iter l.l|0 |5 |10 |15 |20 |25 |30 |35 |40 |45 |50 
 --------|--|--|---|---|---|---|---|---|---|---|--
-naiive model|0.992 |0.976 |0.891 |0.657 |0.395 |0.300 |0.225 |0.175 |0.152 |0.147 |0.145 
-adv. Training with FGSM|0.992 |0.990 |0.989 |0.988 |0.987 |0.980 |0.929 |0.855 |0.835 |0.822 |0.277 
-adv. Training with basic iter.|0.992 |0.988 |0.989 |0.987 |0.986 |0.982 |0.981 |0.979 |0.978 |0.983 |0.980 
-adv. Training with step l.l|0.992 |0.988 |0.987 |0.983 |0.980 |0.974 |0.898 |0.944 |0.861 |0.602 |0.166 
-adv. Training with iter l.l|0.992 |0.989 |0.986 |0.981 |0.982 |0.977 |0.978 |0.973 |0.967 |0.967 |0.962 
-CapsNet|0.991 |0.985 |0.933 |0.854 |0.787 |0.733 |0.684 |0.623 |0.578 |0.535 |0.491 
+naiive model|0.990 |0.989 |0.986 |0.979 |0.964 |0.942 |0.897 |0.837 |0.754 |0.650 |0.550 
+adv. Training with FGSM|0.992 |0.991 |0.991 |0.992 |0.990 |0.980 |0.985 |0.986 |0.985 |0.981 |0.978 
+adv. Training with basic iter.|0.992 |0.990 |0.991 |0.987 |0.987 |0.987 |0.988 |0.986 |0.984 |0.985 |0.983 
+adv. Training with step l.l|0.992 |0.990 |0.990 |0.989 |0.988 |0.987 |0.985 |0.977 |0.973 |0.974 |0.969 
+adv. Training with iter l.l|0.992 |0.990 |0.989 |0.987 |0.987 |0.982 |0.982 |0.980 |0.977 |0.976 |0.975 
+CapsNet|0.991 |0.991 |0.985 |0.964 |0.933 |0.895 |0.854 |0.819 |0.787 |0.755 |0.733 
 
 ![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/iter_ll.gif)
 
 Discussion
 -------------
 
-CapsNet shows better robustness for adversarial examples than naiive conv. network. However, CapsNet also fall in the trap of every type adversarial examples. This structure can be one of the hint to solve adversarial problem, however experiment results show CapsNets is not free to adversarial attack.
+CapsNet also fall in the trap of every type adversarial examples. This structure can be one of the hint to solve adversarial problem, however experiment results show CapsNets is not free to adversarial attack.

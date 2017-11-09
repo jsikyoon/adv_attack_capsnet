@@ -1,156 +1,110 @@
-5  Max Eplision  Sat Nov 4 01:26:32 KST 2017
+5  Max Eplision  Thu Nov 9 10:02:00 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.942299962044
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.935699999332
-10  Max Eplision  Sat Nov 4 01:33:47 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+10  Max Eplision  Thu Nov 9 10:02:26 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.853599905968
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.799699962139
-15  Max Eplision  Sat Nov 4 01:41:02 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+15  Max Eplision  Thu Nov 9 10:02:52 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.785399913788
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.64729988575
-20  Max Eplision  Sat Nov 4 01:48:15 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+20  Max Eplision  Thu Nov 9 10:03:18 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.74899995327
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.517499983311
-25  Max Eplision  Sat Nov 4 01:55:34 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+25  Max Eplision  Thu Nov 9 10:03:44 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.720899879932
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.422799944878
-30  Max Eplision  Sat Nov 4 02:02:57 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+30  Max Eplision  Thu Nov 9 10:04:10 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.694400072098
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.356699973345
-35  Max Eplision  Sat Nov 4 02:10:16 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+35  Max Eplision  Thu Nov 9 10:04:36 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.670700013638
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.312700003386
-40  Max Eplision  Sat Nov 4 02:17:31 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+40  Max Eplision  Thu Nov 9 10:05:02 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.648299992085
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.277399986982
-45  Max Eplision  Sat Nov 4 02:24:47 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+45  Max Eplision  Thu Nov 9 10:05:28 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.623099982738
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.252200007439
-50  Max Eplision  Sat Nov 4 02:32:02 KST 2017
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
+50  Max Eplision  Thu Nov 9 10:05:54 KST 2017
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.60229998827
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
 Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
 Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.235999986529
-55  Max Eplision  Sat Nov 4 02:39:16 KST 2017
-Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
-Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
-Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
-Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.581200003624
-Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
-Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
-Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
-Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.221799984574
-60  Max Eplision  Sat Nov 4 02:46:32 KST 2017
-Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
-Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
-Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
-Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.562599956989
-Extracting /tmp/tensorflow/mnist/train-images-idx3-ubyte.gz
-Extracting /tmp/tensorflow/mnist/train-labels-idx1-ubyte.gz
-Extracting /tmp/tensorflow/mnist/t10k-images-idx3-ubyte.gz
-Extracting /tmp/tensorflow/mnist/t10k-labels-idx1-ubyte.gz
-Reading parameters from ../output/output_test/capsnet-0
-whole test accuracy: 0.212899982929
+Reading parameters from /tmp/adv_attack_capsnet/output/output_test/capsnet-0
