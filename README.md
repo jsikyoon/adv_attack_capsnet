@@ -126,7 +126,7 @@ Experiments Results (MNIST)
 
 ### FGSM
 
-![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/fgsm.PNG)
+![alt tag](https://github.com/jaesik817/adv_attack_capsnet/blob/master/figures/aaa.PNG)
 
 FGSM|0 |5 |10 |15 |20 |25 |30 |35 |40 |45 |50 
 ----|--|--|---|---|---|---|---|---|---|---|--
